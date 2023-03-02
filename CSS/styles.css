@@ -61,8 +61,6 @@ body {
     color: var(--accent-color);
 }
 .page-title {
-        font-style: normal;
-        font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -71,7 +69,6 @@ body {
 }
 .modal-btn {
         font-family: var(--primary-font);
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -88,7 +85,6 @@ color: #FFFFFF;
 }
 
 .functional {
-            font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -96,16 +92,12 @@ color: #FFFFFF;
             color: #2E2F42;
 }
 .functional-description {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 .our-work {
-        font-style: normal;
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -114,8 +106,6 @@ color: #FFFFFF;
         color: #2E2F42;
 }
 .team {
-        font-style: normal;
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -143,4 +133,33 @@ color: #FFFFFF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
+}
+.modals-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
+
+.modals-btn:hover,
+madals-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.functional-top-list {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.functional-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
